@@ -7,8 +7,6 @@
 - Hysteria2用UDP端口，Socks5用TCP端口
 - 如果你只是为了保活登陆，serv00 ct8可以不安装任何东西，只需设置Github Actions保活
 - 如果安装部署过其它脚本，请你在安装此脚本之前用下面的清理服务器命令清除一次服务器后再安装！！！！！！
-- Cloudflare优选IP 订阅器，每天定时发布更新。
-- openwrt系统 iStore系统 Ros系统 影视 音乐 机场等技术交流。
 ## 一键脚本
 - 推荐Socks5 hysteria2 nohup模式
 ```bash
@@ -16,7 +14,7 @@ bash <(curl -s https://raw.githubusercontent.com/gshtwy/socks5-for-serv00/main/i
 ```
 - Socks5 pm2模式
 
-~`bash <(curl -s https://raw.githubusercontent.com/gshtwy/socks5-for-serv00/main/install-socks5-pm2.sh)`~
+bash <(curl -s https://raw.githubusercontent.com/gshtwy/socks5-for-serv00/main/install-socks5-pm2.sh)
 
 
 卸载pm2
@@ -75,7 +73,3 @@ rm -rf ~/*
 ```
 
 
-
-
-# 致谢
-[RealNeoMan](https://github.com/Neomanbeta/ct8socks)、[k0baya](https://github.com/k0baya)、[eooce](https://github.com/eooce)、[cmliu](https://github.com/cmliu)
